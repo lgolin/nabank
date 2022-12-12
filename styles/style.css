@@ -1,0 +1,53 @@
+.nav {
+  font-size: 1.2rem;
+}
+
+.nav-link:hover {
+  border-bottom: 1px solid #48a57a;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background: #a5d1c486;
+}
+
+form {
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 5px 9px 26px 0px rgba(128, 128, 128, 0.48);
+  -webkit-box-shadow: 5px 9px 26px 0px rgba(128, 128, 128, 0.48);
+  -moz-box-shadow: 5px 9px 26px 0px rgba(128, 128, 128, 0.48);
+}
+
+.links-login {
+  text-decoration: none;
+  color: rgb(153, 153, 153);
+  padding: 0.3rem 0;
+}
+
+.links-login:hover {
+  color: #48a57a;
+}
+
+.form-signin {
+  max-width: 430px;
+  padding: 5rem;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type='email'] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type='password'] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}

@@ -36,24 +36,33 @@
     </div>
   </header>
 
-  <!-- Main content -->
-  <main>
-    <div class="container col-xxl-8 px-4 py-5">
-      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-        <div class="col-10 col-sm-8 col-lg-6">
-          <img src="./images/bg.png" class="d-block mx-lg-auto img-fluid" alt="Image com a mão de um homem e uma mulher segurando o cartão do banco" width="700" height="500" loading="lazy">
-        </div>
-        <div class="col-lg-6">
-          <h1 class="display-5 fw-bold lh-1 mb-3">O banco que você vai amar</h1>
-          <p class="lead">NaBank é o Mobile Bank, ajudando você a gerenciar sua conta bancária em movimento, acompanhar suas despesas e reservar dinheiro em tempo real. Abra o seu em minutos direto do seu smartphone e comece a gastar antes que seu cartão físico chegue.</p>
-          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-            <button type="button" class="btn btn-success btn-lg px-4 me-md-2"><a href="./cadastro.html">Abra sua conta</a></button>
-            <button type="button" class="btn btn-outline-secondary btn-lg px-4"><a href="./login.html">Login</a></button>
-          </div>
-        </div>
+  <!-- Login Page -->
+  <section class="text-center">
+    <form class="container form-signin">
+      <h1 class="h3 mb-5 fw-normal">Faça seu cadastro</h1>
+
+      <div class="form-floating">
+        <input type="email" class="form-control mb-2" id="floatingInput" placeholder="Seu Nome">
+        <label for="floatingInput">Nome completo</label>
       </div>
-    </div>
-  </main>
+      <div class="form-floating">
+        <input type="email" class="form-control mb-2" id="floatingInput" placeholder="name@example.com">
+        <label for="floatingInput">Email</label>
+      </div>
+      <div class="form-floating">
+        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+        <label for="floatingPassword">Senha</label>
+      </div>
+      <div class="form-floating">
+        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+        <label for="floatingPassword">Confirme sua senha</label>
+      </div>
+
+
+      <button class="w-100 btn btn-lg btn-success mt-4" type="submit">Continuar</button>
+    </form>
+  </section>
+
 
   <footer class="footer mt-auto py-3 bg-light">
     <div class="container">
